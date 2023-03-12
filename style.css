@@ -14,3 +14,97 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {background-color: #b2bec3 ;
+    font-family: 'Gloock', serif;
+font-size: 18px ;}
+
+h1{ color:#d63031 ;
+font-size: 36px;
+font-weight: bold;
+padding-right: 30px;
+
+}
+
+.twitter{
+    color:#1da1f2 ;
+    font-weight: bold;
+    border: solid;
+    text-transform: uppercase;
+    display: block ;
+    width: 100%;
+    background-color:  #1da1f2;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom:  5px;
+    padding: 10px;
+
+}
+
+.twitter a {
+    text-decoration: none
+    
+}
+
+.facebook a{
+    text-decoration: none
+    
+}
+.facebook{
+color:#3b5998 ;
+    font-weight: bold;
+    border: solid;
+    text-transform: uppercase;
+    display: block ;
+    width: 100%;
+    background-color:#3b5998 ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+.facebook :hover{
+    background-color:#2b406e ;
+    color: white;
+}
+
+.twitter :hover{
+    background-color: #0b7bc1 ;
+    color: white;
+}
+
+.all { 
+    width: 550px;
+    margin: 150px; ;
+margin-left: auto;
+margin-right: auto;
+border: solid;
+background-color: white;
+border-radius: 10px;
+border-color: white;
+
+width: 550px;
+background-color: #fff;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.name,.cv,.freetime{
+
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border:solid;
+    border-color: white;
+    border-width: 3px;
+    position: absolute;
+    right: 620px;
+    top: 80px;
+}
